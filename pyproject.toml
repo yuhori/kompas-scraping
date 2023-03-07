@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kompas-scraping"
+version = "0.1.0"
+description = ""
+authors = ["YuHori <YuHori.Main@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kompas_scraping"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mecab-python3 = "^1.0.6"
+requests = "^2.28.2"
+beautifulsoup4 = "^4.11.2"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
